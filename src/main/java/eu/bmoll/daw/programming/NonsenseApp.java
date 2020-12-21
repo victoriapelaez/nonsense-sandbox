@@ -10,6 +10,7 @@ public class NonsenseApp {
         System.out.println("hola mundo" + aux);
 
     Scanner in = new Scanner(System.in);
+    boolean isExit =false;
     String s = in.nextLine();
     System.out.println("You entered string "+s);
     System.out. println("-END-");
